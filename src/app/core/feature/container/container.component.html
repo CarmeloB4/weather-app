@@ -1,1 +1,2 @@
-<p>container works!</p>
+<app-container-search (cityName)="getWeather($event)"></app-container-search>
+<app-container-widget *ngIf="datas" [datas]="datas"></app-container-widget>

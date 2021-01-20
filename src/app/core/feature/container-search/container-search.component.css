@@ -1,0 +1,13 @@
+input {
+  height: 3vh;
+  width: 18vw;
+  padding-right: 5%;
+  margin-top: 2%;
+}
+@media screen and (max-width: 380px){
+  input {
+    width: 40vw;
+    margin-left: 1%;
+    margin-right: 0.5%;
+  }
+}

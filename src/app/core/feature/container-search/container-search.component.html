@@ -1,1 +1,4 @@
-<p>container-search works!</p>
+<div>
+<input type="text" #cityName placeholder="Search city..">
+<button mat-raised-button color="primary" (click)="getCity(cityName?.value)">Search</button>
+</div>

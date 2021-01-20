@@ -1,1 +1,19 @@
-<p>container-widget works!</p>
+<div fxLayout='row' fxLayoutGap='3px'  fxLayoutAlign='center center' fxLayout.xs='column' id="widget">
+  <div *ngFor="let data of datas">
+    <mat-card>
+      <mat-card-header fxLayoutAlign="center">
+        <mat-card-title>{{data?.city | titlecase}}</mat-card-title>
+        <mat-card-subtitle >{{data?.date | date:'short' | titlecase}}</mat-card-subtitle>
+      </mat-card-header>
+      <img src={{data?.icon}}>
+      <mat-card-content>
+        <p>
+          {{data?.degress}}°
+        </p>
+        <p>
+          {{data?.status}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+</div>
+</div>
