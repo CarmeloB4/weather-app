@@ -4,7 +4,7 @@ input {
   padding-right: 5%;
   margin-top: 2%;
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 415px){
   input {
     width: 40vw;
     margin-left: 1%;

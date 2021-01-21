@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   urlLocalizationApi:'https://nominatim.openstreetmap.org/search',
-  urlWeather:'http://api.openweathermap.org/data/2.5/onecall',
+  urlWeather:'https://api.openweathermap.org/data/2.5/onecall',
   apiWeather: '9b45c4a0df186c4b12edf4a073f2cc3f'
 };
 
