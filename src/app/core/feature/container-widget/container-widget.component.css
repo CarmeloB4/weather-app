@@ -1,19 +1,21 @@
 mat-card{
   margin-top: 10%;
-  width: 9vw;
+  width: 130px;
 }
 
 #widget {
 margin-top: 2%;
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 600px){
   mat-card{
     margin-top: 5%;
     width: 100%;
   }
+
   #widget {
     margin-top: 5%;
     margin-right: 6%;
     }
-}
+  }
+
