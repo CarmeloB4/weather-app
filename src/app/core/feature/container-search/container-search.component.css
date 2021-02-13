@@ -1,10 +1,16 @@
 
 
 input {
-  height: 3vh;
+  height: 4vh;
   width: 18vw;
   padding-right: 5%;
   margin-top: 2%;
+  font-size: medium;
+}
+
+button.mat-raised-button{
+  line-height: 5vh;
+  font-size: medium;
 }
 
 
@@ -13,7 +19,11 @@ input {
     height: 3vh;
     width: 40vw;
     margin-left: 1%;
-    margin-right: 0.5%;
   }
+  button.mat-raised-button{
+    line-height: 4vh;
+
+  }
+
 }
 
