@@ -1,6 +1,6 @@
-<p fxLayout="center">
+<p align="center">
 <br>
-<img width="400" src="./src/assets/weather-app.png" alt="logo">
+<img width="300" src="./src/assets/weather-app.png" alt="logo">
 <br>
 </p>
 
