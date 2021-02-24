@@ -8,6 +8,8 @@
 This is an example project developed using two different APIs(https://nominatim.openstreetmap.org/search, https://api.openweathermap.org/data/2.5/onecall), in order to return the weather of a certain place chosen by the user, for the next 7 days.
 <br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+<br>
+You can run the app here https://github-lxifwt.stackblitz.io
 
 ## Development server
 
